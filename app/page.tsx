@@ -107,7 +107,7 @@ export default function CV() {
                   </Badge>
                   <Badge
                     variant="secondary"
-                    className="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300"
+                    className="text-xs px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-300"
                   >
                     1.5 năm kinh nghiệm
                   </Badge>
@@ -208,7 +208,7 @@ export default function CV() {
             {/* Experience Section */}
             <motion.section variants={itemVariants}>
               <div className="flex items-center gap-3 mb-6">
-                <div className="p-2 bg-purple-100 dark:bg-purple-900/30 rounded-lg text-purple-600 dark:text-purple-400">
+                <div className="p-2 bg-blue-100 dark:bg-blue-900/30 rounded-lg text-blue-600 dark:text-blue-400">
                   <Briefcase className="w-5 h-5" />
                 </div>
                 <h2 className="text-2xl font-bold text-slate-900 dark:text-white">
@@ -277,9 +277,9 @@ export default function CV() {
 
                     <Card className="group hover:border-blue-300 dark:hover:border-blue-700 transition-colors bg-white dark:bg-slate-800">
                       <CardHeader className="pb-2">
-                        <CardTitle className="text-base font-bold flex justify-between items-center gap-2">
+                        <CardTitle className="text-base font-bold text-slate-800 dark:text-slate-200 flex justify-between items-center">
                           <div className="flex items-center gap-2">
-                            <span className="w-2 h-2 rounded-full bg-indigo-500"></span>
+                            <span className="w-2 h-2 rounded-full bg-blue-500"></span>
                             Dự án: Hệ thống Điều hành Bay Lotus Airport
                           </div>
                           <a
@@ -315,10 +315,10 @@ export default function CV() {
                         </div>
                         <div className="space-y-3">
                           <div>
-                            <strong className="text-indigo-600 dark:text-indigo-400">
+                            <strong className="text-blue-600 dark:text-blue-400">
                               Kiến trúc Phân quyền (RBAC) & Bảo mật hệ thống:
                             </strong>
-                            <ul className="list-disc pl-4 mt-1 space-y-1 marker:text-indigo-400">
+                            <ul className="list-disc pl-4 mt-1 space-y-1 marker:text-blue-400">
                               <li>
                                 Thiết kế và triển khai cơ chế lọc Menu động dựa
                                 trên hệ thống phân quyền đa cấp (RBAC).
@@ -336,10 +336,10 @@ export default function CV() {
                             </ul>
                           </div>
                           <div>
-                            <strong className="text-indigo-600 dark:text-indigo-400">
+                            <strong className="text-blue-600 dark:text-blue-400">
                               Quản lý Nghiệp vụ & Dữ liệu Hàng không:
                             </strong>
-                            <ul className="list-disc pl-4 mt-1 space-y-1 marker:text-indigo-400">
+                            <ul className="list-disc pl-4 mt-1 space-y-1 marker:text-blue-400">
                               <li>
                                 Phát triển các module quản lý dữ liệu hành khách
                                 và bay chuyên sâu.
@@ -355,10 +355,10 @@ export default function CV() {
                             </ul>
                           </div>
                           <div>
-                            <strong className="text-indigo-600 dark:text-indigo-400">
+                            <strong className="text-blue-600 dark:text-blue-400">
                               Tối ưu hóa Hiệu suất & UX:
                             </strong>
-                            <ul className="list-disc pl-4 mt-1 space-y-1 marker:text-indigo-400">
+                            <ul className="list-disc pl-4 mt-1 space-y-1 marker:text-blue-400">
                               <li>
                                 Ứng dụng TanStack Query v5 giảm 50% request
                                 thừa, đảm bảo đồng nhất dữ liệu realtime.
@@ -371,10 +371,10 @@ export default function CV() {
                             </ul>
                           </div>
                           <div>
-                            <strong className="text-indigo-600 dark:text-indigo-400">
+                            <strong className="text-blue-600 dark:text-blue-400">
                               Báo cáo & Quy trình:
                             </strong>
-                            <ul className="list-disc pl-4 mt-1 space-y-1 marker:text-indigo-400">
+                            <ul className="list-disc pl-4 mt-1 space-y-1 marker:text-blue-400">
                               <li>
                                 Dashboard báo cáo hiệu suất với Ant Design
                                 Charts.
@@ -394,29 +394,32 @@ export default function CV() {
 
                 {/* Job 2 */}
                 <div className="relative pl-8">
-                  <span className="absolute -left-[9px] top-0 h-4 w-4 rounded-full bg-slate-300 ring-4 ring-slate-50 dark:ring-slate-800 dark:bg-slate-600"></span>
+                  <span className="absolute -left-[9px] top-0 h-4 w-4 rounded-full bg-blue-600 ring-4 ring-blue-50 dark:ring-blue-900/20"></span>
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
                     <div>
                       <h3 className="text-xl font-bold text-slate-900 dark:text-white">
                         Công ty cổ phần Appota
                       </h3>
-                      <p className="text-slate-600 dark:text-slate-400 font-medium">
+                      <p className="text-blue-600 dark:text-blue-400 font-medium">
                         Lập trình viên Front-end Reactjs/Nextjs
                       </p>
                     </div>
                     <Badge
                       variant="outline"
-                      className="w-fit mt-2 sm:mt-0 font-mono text-xs border-slate-200 text-slate-500"
+                      className="w-fit mt-2 sm:mt-0 font-mono text-xs border-blue-200 bg-blue-50 text-blue-700"
                     >
                       6/2024 - 12/2024
                     </Badge>
                   </div>
 
                   <div className="space-y-4">
-                    <Card className="group hover:border-slate-300 dark:hover:border-slate-600 transition-colors bg-white dark:bg-slate-800">
+                    <Card className="group hover:border-blue-300 dark:hover:border-blue-700 transition-colors bg-white dark:bg-slate-800">
                       <CardHeader className="pb-2">
                         <CardTitle className="text-base font-bold text-slate-800 dark:text-slate-200 flex justify-between items-center">
-                          <span>Hệ sinh thái Lịch Như Ý</span>
+                          <div className="flex items-center gap-2">
+                            <span className="w-2 h-2 rounded-full bg-blue-500"></span>
+                            <span>Hệ sinh thái Lịch Như Ý</span>
+                          </div>
                           <div className="flex gap-2 text-xs font-normal opacity-0 group-hover:opacity-100 transition-opacity">
                             <a
                               href="https://prod.lichnhuy.vn"
@@ -452,32 +455,31 @@ export default function CV() {
                             </span>
                           ))}
                         </div>
-                        <ul className="list-disc pl-4 space-y-1.5 marker:text-slate-400">
+                        <ul className="list-disc pl-4 space-y-1.5 marker:text-blue-400">
                           <li>
-                            <strong>Web & Landing Page:</strong> Tối ưu hiển thị
-                            (Responsive), tốc độ tải trang nhanh và chuẩn SEO.
+                            Tối ưu hiển thị (Responsive), tốc độ tải trang nhanh
+                            và chuẩn SEO.
                           </li>
                           <li>
-                            <strong>Logic phức tạp:</strong> Tính toán chuyển
-                            đổi ngày âm dương, Thần số học, Cung hoàng đạo, Tử
-                            vi với độ chính xác cao.
+                            Tính toán chuyển đổi ngày âm dương, Thần số học,
+                            Cung hoàng đạo, Tử vi với độ chính xác cao.
                           </li>
                           <li>
-                            <strong>CMS Dashboard:</strong> Quản lý nội dung đa
-                            dạng (Âm nhạc, Tarot, Tin tức, Danh ngôn) và quản lý
-                            người dùng.
+                            Quản lý nội dung đa dạng (Âm nhạc, Tarot, Tin tức,
+                            Danh ngôn) và quản lý người dùng.
                           </li>
                           <li>
-                            <strong>Authentication:</strong> Xây dựng hệ thống
-                            đăng ký/đăng nhập và phân quyền chặt chẽ.
+                            Xây dựng hệ thống đăng ký/đăng nhập và phân quyền
+                            chặt chẽ.
                           </li>
                         </ul>
                       </CardContent>
                     </Card>
 
-                    <Card className="group hover:border-slate-300 dark:hover:border-slate-600 transition-colors bg-white dark:bg-slate-800">
+                    <Card className="group hover:border-blue-300 dark:hover:border-blue-700 transition-colors bg-white dark:bg-slate-800">
                       <CardHeader className="pb-2">
-                        <CardTitle className="text-base font-bold text-slate-800 dark:text-slate-200">
+                        <CardTitle className="text-base font-bold text-slate-800 dark:text-slate-200 flex items-center gap-2">
+                          <span className="w-2 h-2 rounded-full bg-blue-500"></span>
                           Hệ thống Quản trị Crawler Truyện (Internal Tool)
                         </CardTitle>
                       </CardHeader>
@@ -494,19 +496,18 @@ export default function CV() {
                             ),
                           )}
                         </div>
-                        <ul className="list-disc pl-4 space-y-1.5 marker:text-slate-400">
+                        <ul className="list-disc pl-4 space-y-1.5 marker:text-blue-400">
                           <li>
                             Xây dựng công cụ quản trị nội dung nội bộ, hỗ trợ
                             biên tập viên quản lý danh sách truyện.
                           </li>
                           <li>
-                            <strong>Google OAuth:</strong> Đăng nhập bảo mật và
-                            thuận tiện cho người dùng nội bộ.
+                            Đăng nhập bảo mật và thuận tiện cho người dùng nội
+                            bộ.
                           </li>
                           <li>
-                            <strong>Full CRUD:</strong> Phát triển trọn bộ tính
-                            năng Thêm, Sửa, Xóa dữ liệu truyện, tối ưu quy trình
-                            xử lý từ Crawler.
+                            Phát triển trọn bộ tính năng Thêm, Sửa, Xóa dữ liệu
+                            truyện, tối ưu quy trình xử lý từ Crawler.
                           </li>
                         </ul>
                       </CardContent>
@@ -516,19 +517,19 @@ export default function CV() {
 
                 {/* Job 3 */}
                 <div className="relative pl-8">
-                  <span className="absolute -left-[9px] top-0 h-4 w-4 rounded-full bg-slate-300 ring-4 ring-slate-50 dark:ring-slate-800 dark:bg-slate-600"></span>
+                  <span className="absolute -left-[9px] top-0 h-4 w-4 rounded-full bg-blue-600 ring-4 ring-blue-50 dark:ring-blue-900/20"></span>
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4">
                     <div>
                       <h3 className="text-xl font-bold text-slate-900 dark:text-white">
                         Công ty Cổ phần Công nghệ WINDSOFT
                       </h3>
-                      <p className="text-slate-600 dark:text-slate-400 font-medium">
+                      <p className="text-blue-600 dark:text-blue-400 font-medium">
                         Thực tập sinh React Native
                       </p>
                     </div>
                     <Badge
                       variant="outline"
-                      className="w-fit mt-2 sm:mt-0 font-mono text-xs border-slate-200 text-slate-500"
+                      className="w-fit mt-2 sm:mt-0 font-mono text-xs border-blue-200 bg-blue-50 text-blue-700"
                     >
                       6/2023 - 8/2023
                     </Badge>
@@ -552,7 +553,7 @@ export default function CV() {
             {/* Education Section */}
             <motion.section variants={itemVariants}>
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-2 bg-green-100 dark:bg-green-900/30 rounded-lg text-green-600 dark:text-green-400">
+                <div className="p-2 bg-indigo-100 dark:bg-indigo-900/30 rounded-lg text-indigo-600 dark:text-indigo-400">
                   <GraduationCap className="w-5 h-5" />
                 </div>
                 <h2 className="text-xl font-bold text-slate-900 dark:text-white">
@@ -560,7 +561,7 @@ export default function CV() {
                 </h2>
               </div>
               <Card className="overflow-hidden border-none shadow-md bg-white dark:bg-slate-800">
-                <div className="h-2 bg-green-500"></div>
+                <div className="h-2 bg-indigo-500"></div>
                 <CardContent className="p-5">
                   <h3 className="font-bold text-lg mb-1">
                     ĐH Công nghiệp Hà Nội
@@ -570,7 +571,7 @@ export default function CV() {
                   </p>
                   <div className="flex justify-between items-center text-xs">
                     <span className="text-slate-400">2020 - 2024</span>
-                    <Badge className="bg-green-100 text-green-700 hover:bg-green-200 border-none">
+                    <Badge className="bg-indigo-100 text-indigo-700 hover:bg-indigo-200 border-none">
                       Đã tốt nghiệp
                     </Badge>
                   </div>
@@ -581,7 +582,7 @@ export default function CV() {
             {/* Projects Section */}
             <motion.section variants={itemVariants}>
               <div className="flex items-center gap-3 mb-4">
-                <div className="p-2 bg-orange-100 dark:bg-orange-900/30 rounded-lg text-orange-600 dark:text-orange-400">
+                <div className="p-2 bg-pink-100 dark:bg-pink-900/30 rounded-lg text-pink-600 dark:text-pink-400">
                   <Rocket className="w-5 h-5" />
                 </div>
                 <h2 className="text-xl font-bold text-slate-900 dark:text-white">
@@ -600,7 +601,7 @@ export default function CV() {
                         E-commerce Kanban
                         <Badge
                           variant="outline"
-                          className="bg-orange-50 text-orange-600 border-orange-200 text-[10px]"
+                          className="bg-pink-50 text-pink-600 border-pink-200 text-[10px]"
                         >
                           FULLSTACK
                         </Badge>
