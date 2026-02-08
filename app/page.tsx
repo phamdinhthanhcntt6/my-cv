@@ -1,15 +1,13 @@
 "use client";
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { motion, type Variants } from "framer-motion";
 import {
   Briefcase,
   Code2,
-  Download,
   ExternalLink,
   Github,
   GraduationCap,
@@ -78,11 +76,6 @@ export default function CV() {
             >
               <div className="absolute inset-0 bg-linear-to-tr from-blue-600 to-purple-600 rounded-full blur-lg opacity-75"></div>
               <Avatar className="w-32 h-32 md:w-48 md:h-48 border-4 border-white dark:border-slate-800 shadow-2xl relative">
-                <AvatarImage
-                  src="/placeholder-avatar.jpg"
-                  alt="Phạm Đình Thành"
-                  className="object-cover"
-                />
                 <AvatarFallback className="text-5xl font-bold bg-linear-to-br from-blue-600 to-purple-700 text-white">
                   PT
                 </AvatarFallback>
